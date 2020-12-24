@@ -15,11 +15,11 @@ def main():
 
 def verifyLinks(link):
     # Verify status of link provided to command line
-    res = requests.get(link)
     try:
+        res = requests.get(link)
         res.raise_for_status()
     except Exception as exc:
-        print('ERROR: Link provided to command line was not valid')
+        print('ERROR! Link provided to command line was not valid')
         print(f'Exception: {exc}')
         return
 
