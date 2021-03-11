@@ -1,6 +1,6 @@
 #! Python3
-# BlankRowInserter.py - Inverts the cell coordinates in a spreadsheet
-# Run in console --> python3 BlankRowInserter.py (name of spreadsheet)
+# InvertCell.py - Inverts the cell coordinates in a spreadsheet
+# Run in console --> python3 InvertCell.py (name of spreadsheet)
 
 import openpyxl, sys, os
 from openpyxl.utils import get_column_letter
@@ -8,7 +8,7 @@ from openpyxl.utils import get_column_letter
 def main():
     if len(sys.argv) != 2:
         print('Invalid number of arguments')
-        print('Use --> python3 BlankRowInserter.py (name of spreadsheet)')
+        print('Use --> python3 InvertCell.py (name of spreadsheet)')
         exit(0)
     
     InvertCells(sys.argv[1])
