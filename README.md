@@ -3,7 +3,7 @@ The repository contains my solutions to the practice problems from Al Sweigart's
 Required modules to run all files  
 beautifulsoup4  
 openpyxl  
-pyinputplus
+pyinputplus  
 PyPDF2  
 pyperclip  
 requests  
