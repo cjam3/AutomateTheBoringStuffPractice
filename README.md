@@ -2,10 +2,10 @@
   
 ## Required modules to run all files  
 - beautifulsoup4
-- python-docx
 - openpyxl
 - pyinputplus
 - PyPDF2
 - pyperclip
+- python-docx
 - requests
 - selenium
