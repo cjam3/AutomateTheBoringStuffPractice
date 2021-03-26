@@ -3,6 +3,7 @@
 ## Required modules to run all files  
 - beautifulsoup4
 - openpyxl
+- pillow
 - pyinputplus
 - PyPDF2
 - pyperclip
