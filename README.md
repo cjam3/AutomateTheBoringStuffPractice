@@ -4,6 +4,7 @@
 - beautifulsoup4
 - openpyxl
 - pillow
+- pyautogui
 - pyinputplus
 - PyPDF2
 - pyperclip
